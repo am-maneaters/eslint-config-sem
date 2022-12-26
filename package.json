@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "sam@matenaer.dev",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
     "@typescript-eslint/parser": "^5.46.1",
     "eslint": "^8.29.0",
     "eslint-config-prettier": "^8.5.0",
@@ -19,7 +19,7 @@
     "prettier-eslint": "^15.0.1"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
     "@typescript-eslint/parser": "^5.46.1",
     "eslint": "^8.29.0",
     "eslint-config-prettier": "^8.5.0",
