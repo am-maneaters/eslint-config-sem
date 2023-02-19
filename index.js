@@ -5,6 +5,7 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
+    '@tanstack/query',
     'plugin:unicorn/recommended',
     'plugin:react-hooks/recommended',
     'plugin:react/recommended',
@@ -27,8 +28,9 @@ module.exports = {
     },
   },
   plugins: ['react', '@typescript-eslint', 'prettier', 'jsx-a11y', 'unicorn'],
-  ignorePatterns: ['app/metadata/*.js'],
   rules: {
+    '@tanstack/query/exhaustive-deps': 'error',
+    '@tanstack/query/prefer-query-object-syntax': 'error',
     'unicorn/prevent-abbreviations': 0,
     'unicorn/filename-case': 0,
     'unicorn/no-null': 0,
