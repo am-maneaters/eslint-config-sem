@@ -49,9 +49,13 @@ module.exports = {
     'object-shorthand': [2, 'always'],
     'prettier/prettier': [
       'warn',
-      {},
       {
-        usePrettierrc: true,
+        tabWidth: 2,
+        useTabs: false,
+        endOfLine: 'auto',
+        trailingComma: 'es5',
+        singleQuote: true,
+        semi: true,
       },
     ],
   },
