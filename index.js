@@ -5,7 +5,6 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
-    '@tanstack/query',
     'plugin:unicorn/recommended',
     'plugin:react-hooks/recommended',
     'plugin:react/recommended',
@@ -27,7 +26,14 @@ module.exports = {
       version: 'detect',
     },
   },
-  plugins: ['react', '@typescript-eslint', 'prettier', 'jsx-a11y', 'unicorn'],
+  plugins: [
+    'react',
+    '@typescript-eslint',
+    'prettier',
+    'jsx-a11y',
+    'unicorn',
+    '@tanstack/query',
+  ],
   rules: {
     '@tanstack/query/exhaustive-deps': 'error',
     '@tanstack/query/prefer-query-object-syntax': 'error',
