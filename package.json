@@ -3,7 +3,7 @@
   "version": "1.0.9",
   "author": "sam@matenaer.dev",
   "dependencies": {
-    "@tanstack/eslint-plugin-query": "^4.24.11",
+    "@tanstack/eslint-plugin-query": "^4.29.4",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
     "eslint": "^8.36.0",
